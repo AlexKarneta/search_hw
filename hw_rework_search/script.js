@@ -10,6 +10,7 @@ const DIRECTION_UP = 1;
 const DIRECTION_DOWN = -1;
 
 document.addEventListener("click", onSearchBtnClick);
+// plz check branch
 // //reworked
 function onSearchBtnClick(e) {
   if (e.target.classList.contains("search-btn")) {
